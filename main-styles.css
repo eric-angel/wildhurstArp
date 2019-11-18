@@ -1,7 +1,15 @@
 /* Basic Styles */
+html {
+    background-color: black;
+}
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
+
+h1 {
+    color: white;
+}
+
 /* ID Styles */
 
 /* Class Styles */
