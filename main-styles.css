@@ -4,10 +4,16 @@ html {
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+
 }
 
 h1 {
     color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* ID Styles */
@@ -15,3 +21,11 @@ h1 {
 /* Class Styles */
 
 /* PseudoClass Styles */
+
+/* Clearfix ---------------------------------- */
+
+.group::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
