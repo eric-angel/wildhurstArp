@@ -20,6 +20,10 @@ a {
 
 /* Class Styles */
 
+nav {
+    background-color: silver;
+}
+
 /* PseudoClass Styles */
 
 /* Clearfix ---------------------------------- */
